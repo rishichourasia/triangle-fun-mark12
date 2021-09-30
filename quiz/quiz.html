@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="topnav">
+			<a href="../index.html">Is Triangle</a>
+			<a href="/hypoteneous/hypo.html">Hypotenuse</a>
+			<a href="/Area/area.html">Area</a>
+			<a class="active" href="/quiz/quiz.html">Quiz</a>
+		</div>
+
+		<div class="container">
+			<div class="header">
+				<h1>Triangle Quiz 😋</h1>
+			</div>
+			<div class="input-box">
+				<form class="container quiz-form">
+					<div class="quiz-container">
+						<p>
+							1. What is the third angle for the triangle where angle1 = 45° and
+							angle2 = 45°?
+						</p>
+						<label>
+							<input required type="radio" name="options" value="45°" />
+							45°
+						</label>
+						<label>
+							<input required type="radio" name="options" value="60°" />
+							60°
+						</label>
+						<label>
+							<input required type="radio" name="options" value="90°" />
+							90°
+						</label>
+					</div>
+					<div class="quiz-container">
+						<p>
+							2. If a triangle has an angle of 90 degrees, what is it called?
+						</p>
+						<label>
+							<input required type="radio" name="option1" value="Obtuse" />
+							Obtuse
+						</label>
+						<label>
+							<input required type="radio" name="option1" value="Acute" />
+							Acute
+						</label>
+						<label>
+							<input
+								required
+								type="radio"
+								name="option1"
+								value="Right angled"
+							/>
+							Right angled
+						</label>
+					</div>
+					<div class="quiz-container">
+						<p>3. Which of the following triangles are always similar?</p>
+						<label>
+							<input
+								required
+								type="radio"
+								name="option2"
+								value="Right triangle"
+							/>
+							Right triangle
+						</label>
+						<label>
+							<input
+								required
+								type="radio"
+								name="option2"
+								value="Obtuse triangle"
+							/>
+							Obtuse triangle
+						</label>
+						<label>
+							<input
+								required
+								type="radio"
+								name="option2"
+								value="Equilateral triangle"
+							/>
+							Equilateral triangle
+						</label>
+					</div>
+					<div class="quiz-container">
+						<p>4. Isoscele triangle is defined as?</p>
+						<label>
+							<input
+								required
+								type="radio"
+								name="option3"
+								value="Two sides are equal"
+							/>
+							Two sides are equal
+						</label>
+						<label>
+							<input
+								required
+								type="radio"
+								name="option3"
+								value="All sides are equal"
+							/>
+							All sides are equal
+						</label>
+						<label>
+							<input
+								required
+								type="radio"
+								name="option3"
+								value="No sides are equal"
+							/>
+							No sides are equal
+						</label>
+					</div>
+
+					<button id="submit-btn" class="btn" type="submit">
+						Submit Selection
+					</button>
+				</form>
+
+				<div class="message-box">
+					<p class="message"></p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

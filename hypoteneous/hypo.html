@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hypotenuse</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="topnav">
+			<a href="../index.html">Is Triangle</a>
+			<a class="active" href="/hypoteneous/hypo.html">Hypotenuse</a>
+			<a href="/Area/area.html">Area</a>
+			<a href="/quiz/quiz.html">Quiz</a>
+		</div>
+
+		<div class="container">
+			<div class="header">
+				<h1>Check Hypotenuse 😮</h1>
+				<h3>Length of Hypotenuse = sqrt(a² + b²)</h3>
+			</div>
+			<div class="input-box">
+				<label for="angle-label-1"
+					>length a (in Cm):
+					<input
+						type="number"
+						class="len-input"
+						placeholder="Enter lenght a "
+						onchange="remove()"
+					/>
+				</label>
+				<label for="angle-label-2"
+					>length b (in Cm):
+					<input
+						type="number"
+						class="len-input"
+						placeholder="Enter length b "
+						onchange="remove()"
+					/>
+				</label>
+
+				<button class="btn">Check</button>
+				<div class="message-box">
+					<p class="message"></p>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
